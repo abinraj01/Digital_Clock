@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Archivo+Black&family=Bebas+Neue&family=Chakra+Petch:wght@300&family=Changa&family=Croissant+One&family=Dosis:wght@200;300;400;500&family=Handlee&family=Indie+Flower&family=Inter:wght@300;400;500&family=Josefin+Sans:wght@100;200&family=Kenia&family=Merienda&family=Orbitron&family=Oswald:wght@300;400&family=Passion+One:wght@400;700;900&family=Poppins:wght@200&family=Roboto&family=Roboto+Slab:wght@300;400;500;600&family=Satisfy&family=Source+Code+Pro:ital,wght@1,200;1,300&family=Teko:wght@500;600;700&display=swap');
+
+@font-face {
+    font-family: digital;
+    src: url(./Digital\ Dismay.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+.output {
+    position: relative;
+    color: black;
+    display: flex;
+    background-color: rgba(29, 28, 28, 0.638);
+    justify-content: center;
+    align-items: center;
+    max-width: 380px;
+    width: 80%;
+    height: 120px;
+    margin: 0 auto;
+    font-size: 90px;
+    font-weight: 500;
+    font-family: digital;
+    z-index: 1;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.9);
+
+}
+
+body {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container-fluid {
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    background-image: url(./images/minutes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:15%;
+
+}
+.row{
+    padding-right: 100px;
+}
+
+
